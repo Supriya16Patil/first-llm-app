@@ -27,7 +27,7 @@ genai.configure(api_key=api_key)
 
 # Initialize the Gemini 1.5 Flash model (good for speed/cost)
 # Other models: 'gemini-1.5-pro'
-model = genai.GenerativeModel('gemini-3.8-flash')
+model = genai.GenerativeModel('gemini-3.6-flash')
 
 # --- 4. USER INTERFACE (UI) ---
 st.title("🤖 Your First LLM Assistant")
