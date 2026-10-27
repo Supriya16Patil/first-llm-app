@@ -31,7 +31,7 @@ model = genai.GenerativeModel('gemini-3.6-flash')
 
 # --- 4. USER INTERFACE (UI) ---
 st.title("🤖 Your First LLM Assistant")
-st.markdown("This app uses Python, Streamlit, and Google's **Gemini 1.5 Flash** model.")
+st.markdown("This app uses Python, Streamlit, and Google's **Gemini 3.6 Flash** model.")
 
 # Create a text area for user input
 user_prompt = st.text_area("Enter your prompt:", height=150, placeholder="e.g., Write a short story about a robot learning to paint...")
